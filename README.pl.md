@@ -34,4 +34,4 @@ _Console solitaire_ to wersja klasycznego pasjansa w TUI.
 
 ## Informacje o projekcie
 
-Projekt został wykonany w ramach durgiego etapu ogólnopolskiego konkursu programistycznego [_Gigathon_](https://www.gigathon.pl/) (2025).
+Projekt został wykonany w ramach drugiego etapu ogólnopolskiego konkursu programistycznego [_Gigathon_](https://www.gigathon.pl/) (2025).
