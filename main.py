@@ -6,7 +6,6 @@ from pyfiglet import print_figlet  # type: ignore
 from rich.console import Console
 from rich.markdown import Markdown
 
-
 from card import Card, RANKS, SUITS
 from pile import Stockpile, FoundationPile, Column, move_card
 from game import MoveCounter, Timer
@@ -189,8 +188,8 @@ def main() -> None:
                         move_counter.moves += 1
                     else:
                         input(
-                            f"Nie można przenieść karty {trans_card}"
-                            f" do stosu końcowego {target_pile_key.upper()}..."
+                            f"Cannot move card {trans_card}"
+                            f" to the foundation pile {target_pile_key.upper()}..."
                         )
                 else:
                     if trans_card.rank == "A":
